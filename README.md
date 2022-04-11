@@ -13,8 +13,11 @@ Users will be able to post new LFGs and will be able to respond to other LFGs th
 Currently, the following API URL's are available.
 
 Begin the login process - gamer.makeitfortheweb.com/user/login
+
 Scan a user's steam library - gamer.makeitfortheweb.com/user/scan/{steamID}
+
 list all the games LFG has learned - gamer.makeitfortheweb.com/games
+
 
 (Any routes listed in routes/web.php, that are not listed here, are not fully functional, or not available on gamer.makeitfortheweb.com yet, and should not be used.)
 
