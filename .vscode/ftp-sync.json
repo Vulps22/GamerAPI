@@ -1,0 +1,26 @@
+{
+    "remotePath": "./html/gamer/",
+    "host": "ec2-54-164-172-238.compute-1.amazonaws.com",
+    "username": "vulps-makeitfortheweb",
+    "password": "Cdstone1993",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [],
+        "path": ""
+    },
+    "detailedSyncSummary": true
+}
