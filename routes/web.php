@@ -14,9 +14,18 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    return $router->app->version();
+/**
+ * View Routes
+ */
+Route::get('/', function()
+{
+   return View::make('pages.home');
 });
+
+
+/**
+ * API Routes
+ */
 
 $router->get('/user/login', "AuthController@login");
 Route::get('/user/scan/{id}', "GameController@scan");
