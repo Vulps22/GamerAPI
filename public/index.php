@@ -26,7 +26,3 @@ $app = require __DIR__.'/../bootstrap/app.php';
 */
 
 $app->run();
-
-echo "<br>Welcome to Gamer API Testing Ground <br>";
-echo "V0.01 <br>";
-echo loginbutton();

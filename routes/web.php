@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\View;
 
 /** @var \Laravel\Lumen\Routing\Router $router */
 
@@ -27,7 +28,7 @@ Route::get('/', function()
  * API Routes
  */
 
-$router->get('/user/login', "AuthController@login");
+Route::get('/user/login', "AuthController@login");
 Route::get('/user/scan/{id}', "GameController@scan");
 Route::get('/games', "GameController@index");
 Route::get('/posts/send/{game}/{user}/{desc}', "PostController@store");
